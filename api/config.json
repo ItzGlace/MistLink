@@ -1,1 +1,1222 @@
-[]
+{
+    "Netherlands": {
+        "cc": "NL",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "69.50.95.191",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "faBAoD54k87UJG7",
+                            "port": 2376,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-69.50.95.191:2376"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "23.157.40.113",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "cdBIDV42DCwnfIN",
+                            "port": 8119,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-23.157.40.113:8119"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "15.184.19.184",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "Bog0ELmMM9DSxDdQ",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NABH-15.184.19.184:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "89.23.103.21",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "oYQ8JwEldYn4KT2gfZ6eNl",
+                            "port": 51584,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NANL-89.23.103.21:51584"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "38.107.226.146",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "H5S0hvcxRi#YLmgU",
+                            "port": 1230,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-38.107.226.146:1230"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "38.150.12.188",
+                            "method": "aes-128-gcm",
+                            "ota": false,
+                            "password": "3a690709-5011-4a6c-ab62-da2fb5291233",
+                            "port": 50203,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAHK-38.150.12.188:50203"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "212.102.53.78",
+                            "method": "aes-128-gcm",
+                            "ota": false,
+                            "password": "shadowsocks",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAGB-212.102.53.78:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "38.143.66.87",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "RexnBgU7EV5ADxG",
+                            "port": 7002,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-38.143.66.87:7002"
+            }
+        ]
+    },
+    "Switzerland": {
+        "cc": "CH",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "23.166.88.221",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "cdBIDV42DCwnfIN",
+                            "port": 8118,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NACH-23.166.88.221:8118"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "45.87.175.181",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "4a2rfixophdjffa8KVA4Aa",
+                            "port": 8080,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NALT-45.87.175.181:8080"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "23.150.152.16",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "g5MeD6Ft3CWlJId",
+                            "port": 5004,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-23.150.152.16:5004"
+            }
+        ]
+    },
+    "United Kingdom": {
+        "cc": "GB",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "205.134.180.151",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "5cp9Z3iWnJZ2",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-205.134.180.151:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "45.87.175.199",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "4a2rfixophdjffa8KVA4Aa",
+                            "port": 8080,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NALT-45.87.175.199:8080"
+            }
+        ]
+    },
+    "Russian Federation": {
+        "cc": "RU",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "217.182.198.219",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "zDNVedRFPQexG9v",
+                            "port": 6379,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NADE-217.182.198.219:6379"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "142.202.49.122",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "e4FCWrgpkji3QY",
+                            "port": 9101,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-142.202.49.122:9101"
+            }
+        ]
+    },
+    "United States": {
+        "cc": "US",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "40.172.96.30",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "u17T3BvpYaaiuW2c",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAAE-40.172.96.30:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "212.102.47.132",
+                            "method": "aes-128-gcm",
+                            "ota": false,
+                            "password": "shadowsocks",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-212.102.47.132:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "38.114.114.69",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "RexnBgU7EV5ADxG",
+                            "port": 7002,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-38.114.114.69:7002"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "45.87.175.166",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "1RWwXhwfAB5gAEozU4G2Pg",
+                            "port": 8080,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NALT-45.87.175.166:8080"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "45.87.175.188",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "1RWwXhwfAB5gAEozU4G2Pg",
+                            "port": 8080,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NALT-45.87.175.188:8080"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "212.102.53.81",
+                            "method": "aes-128-gcm",
+                            "ota": false,
+                            "password": "shadowsocks",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAGB-212.102.53.81:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "185.77.217.121",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "X7eoEBrARWsBUiVfchVEdH",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAFI-185.77.217.121:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "69.50.95.174",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "g5MeD6Ft3CWlJId",
+                            "port": 5004,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-69.50.95.174:5004"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "38.110.1.105",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "pKEW8JPByTVTLtM",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-38.110.1.105:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "38.75.136.33",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "cdBIDV42DCwnfIN",
+                            "port": 8118,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-38.75.136.33:8118"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "150.241.101.222",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "5azaratUlis2nxcu8Bt9MS",
+                            "port": 25543,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NADE-150.241.101.222:25543"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "176.124.199.255",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "%-MVa11&zp",
+                            "port": 19999,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NANL-176.124.199.255:19999"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "147.45.136.147",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "VvWvM0IP6whUKaMEuqeN6M",
+                            "port": 41095,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NANL-147.45.136.147:41095"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "37.19.198.244",
+                            "method": "aes-128-gcm",
+                            "ota": false,
+                            "password": "shadowsocks",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-37.19.198.244:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "195.15.243.125",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "AdcivTASb8XWqRKubWaz2w",
+                            "port": 5555,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NACH-195.15.243.125:5555"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "69.50.92.85",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "KixLvKzwjekG00rm",
+                            "port": 5500,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-69.50.92.85:5500"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "62.210.88.22",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "cjlNhDAZQMuDH6MI8F0E6m",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAFR-62.210.88.22:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "69.50.93.86",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "TEzjfAYq2IjtuoS",
+                            "port": 6679,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-69.50.93.86:6679"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "212.102.47.131",
+                            "method": "aes-128-gcm",
+                            "ota": false,
+                            "password": "shadowsocks",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-212.102.47.131:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "45.144.48.63",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "d3837224ed465f00",
+                            "port": 57456,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAPL-45.144.48.63:57456"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "69.50.93.10",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "Y6R9pAtvxxzmGC",
+                            "port": 9090,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-69.50.93.10:9090"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "58.63.250.61",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "QMOLGIKYZW15TD56",
+                            "port": 15010,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NACN-58.63.250.61:15010"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "58.63.250.61",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "Z4ZQB7LIKEVW7H3A",
+                            "port": 15004,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NACN-58.63.250.61:15004"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "18.135.132.127",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "mps3FwmDjLrWaOVg",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAGB-18.135.132.127:443"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "23.157.40.113",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "Y6R9pAtvxxzmGC",
+                            "port": 3306,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-23.157.40.113:3306"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "23.157.40.103",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "XKFKl2rULjIp74",
+                            "port": 8008,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-23.157.40.103:8008"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "45.142.246.232",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05",
+                            "port": 19994,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NARU-45.142.246.232:19994"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "185.5.38.111",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "2VrTnsQrvfJhSxWwRGtSUk43T8BL3M9XU6AYssJKzSbT6Lr2paHvqWAxcYWHZ243vEqc1fSTMkWbP6VqUBbFEVKeX5pVv1CU",
+                            "port": 55988,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAGB-185.5.38.111:55988"
+            }
+        ]
+    },
+    "Japan": {
+        "cc": "JP",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "38.86.135.141",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "kDWvXYZoTBcGkC4",
+                            "port": 8882,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-38.86.135.141:8882"
+            }
+        ]
+    },
+    "Hungary": {
+        "cc": "HU",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "156.146.62.161",
+                            "method": "aes-128-gcm",
+                            "ota": false,
+                            "password": "shadowsocks",
+                            "port": 443,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NACH-156.146.62.161:443"
+            }
+        ]
+    },
+    "Hong Kong": {
+        "cc": "HK",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "69.50.92.55",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "KixLvKzwjekG00rm",
+                            "port": 8000,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-69.50.92.55:8000"
+            }
+        ]
+    },
+    "Italy": {
+        "cc": "IT",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "69.50.93.86",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "Y6R9pAtvxxzmGC",
+                            "port": 8888,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-69.50.93.86:8888"
+            }
+        ]
+    }
+}
