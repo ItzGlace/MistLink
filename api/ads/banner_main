@@ -1,0 +1,7 @@
+{
+  "id": "ad_001",
+  "title": "Special Offer!",
+  "description": "Get 50% off on your first purchase. Limited time only!",
+  "image_url": "https://example.com/ad1.jpg",
+  "click_url": "https://example.com/offer"
+}
