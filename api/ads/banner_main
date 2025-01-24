@@ -2,13 +2,13 @@
   "id": "ad_001",
   "title": "تخفیف ویژه",
   "title_color": "#FFFFFF",
-  "title_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/Iran%20Sans%20Bold.ttf",
+  "title_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb_Bold.ttf",
   "description": "وی پی ان اختصاصیت رو از ما بخر. فقط با 64هزار تومان در ماه",
   "description_color": "#FFFFFF",
-  "description_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/Iran%20Sans%20Bold.ttf",
+  "description_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb.ttf",
   "logo_url": "https://raw.githubusercontent.com/ItzGlace/MistLink/refs/heads/main/api/ads/IMG_20250124_113908.jpg",
   "background_type": "rounded",
   "background_color": "#181718",
   "background_image_url": "",
-  "click_url": "https://example.com/offer"
+  "click_url": "https://midasnet.work"
 }
