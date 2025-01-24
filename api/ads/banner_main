@@ -5,8 +5,8 @@
   "description": "VPN اختصاصیت رو از ما بخر. فقط با 64هزار تومان در ماه",
   "description_color": "#FFFFFF",
   "logo_url": "	https://midasnet.work/media/midas_Network_copy1222.png",
-  "background_type": "wave",
-  "background_color": "#8dc3e1",
+  "background_type": "rounded",
+  "background_color": "#181718",
   "background_image_url": "",
   "click_url": "https://example.com/offer"
 }
