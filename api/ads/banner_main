@@ -5,8 +5,8 @@
   "description": "Get 50% off on your first purchase. Limited time only!",
   "description_color": "",
   "logo_url": "https://example.com/ad1.jpg",
-  "background_type": "",
-  "background_color": "",
+  "background_type": "wave",
+  "background_color": "#8dc3e1",
   "background_image_url": "",
   "click_url": "https://example.com/offer"
 }
