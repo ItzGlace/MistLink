@@ -2,7 +2,7 @@
   "id": "ad_001",
   "title": "تخفیف ویژه",
   "title_color": "#FFFFFF",
-  "title_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb_Bold.ttf",
+  "title_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb_Light.ttf",
   "description": "وی پی ان اختصاصیت رو از ما بخر. فقط با 64هزار تومان در ماه",
   "description_color": "#FFFFFF",
   "description_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb_Light.ttf",
