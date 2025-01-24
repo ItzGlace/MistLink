@@ -1,14 +1,14 @@
 {
   "id": "ad_001",
-  "title": "تخفیف ویژه",
+  "title": "میست لینک را دنبال کنید",
   "title_color": "#FFFFFF",
   "title_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb_Bold.ttf",
-  "description": "وی پی ان اختصاصیت رو از ما بخر. فقط با 64هزار تومان در ماه",
+  "description": "در تلگرام میست لینک را دنبال کنید تا از آپدیت ها باخبر شوید",
   "description_color": "#FFFFFF",
   "description_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb.ttf",
-  "logo_url": "https://raw.githubusercontent.com/ItzGlace/MistLink/refs/heads/main/api/ads/IMG_20250124_113908.jpg",
+  "logo_url": "https://raw.githubusercontent.com/ItzGlace/MistLink/refs/heads/main/api/ads/Telegram.png",
   "background_type": "rounded",
   "background_color": "#181718",
   "background_image_url": "",
-  "click_url": "https://midasnet.work"
+  "click_url": "https://t.me/mistlink"
 }
