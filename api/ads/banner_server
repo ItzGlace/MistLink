@@ -1,12 +1,14 @@
 {
-  "id": "ad_002",
-  "title": "Special Offer!",
-  "title_color": "",
-  "description": "Get 50% off on your first purchase. Limited time only!",
-  "description_color": "",
-  "logo_url": "https://example.com/ad1.jpg",
-  "background_type": "",
-  "background_color": "",
+  "id": "ad_001",
+  "title": "میست لینک را دنبال کنید",
+  "title_color": "#FFFFFF",
+  "title_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb_Bold.ttf",
+  "description": "در تلگرام میست لینک را دنبال کنید تا از آپدیت ها باخبر شوید",
+  "description_color": "#FFFFFF",
+  "description_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb.ttf",
+  "logo_url": "https://raw.githubusercontent.com/ItzGlace/MistLink/refs/heads/main/api/ads/Telegram.png",
+  "background_type": "rounded",
+  "background_color": "#181718",
   "background_image_url": "",
-  "click_url": "https://example.com/offer"
+  "click_url": "https://t.me/mistlink"
 }
