@@ -1,9 +1,9 @@
 {
   "id": "ad_001",
   "title": "Special Offer!",
-  "title_color": "",
+  "title_color": "#FFFFFF",
   "description": "Get 50% off on your first purchase. Limited time only!",
-  "description_color": "",
+  "description_color": "#FFFFFF",
   "logo_url": "https://avatars.githubusercontent.com/u/113467458?v=4",
   "background_type": "wave",
   "background_color": "#8dc3e1",
