@@ -1,0 +1,16 @@
+{
+  "js_links": [
+    {
+      "name": "mistlink_user_handler",
+      "url": "https://mistlink-proxy.itzglace.workers.dev/mistlink_user_handler.js"
+    },
+    {
+      "name": "mistlink_ad_click_handler",
+      "url": "https://mistlink-proxy.itzglace.workers.dev/mistlink_ad_click_handler.js"
+    },
+    {
+      "name": "mistlink_server_status_handler",
+      "url": "https://mistlink-proxy.itzglace.workers.dev/mistlink_server_status_handler.js"
+    }
+  ]
+}
