@@ -1,14 +1,14 @@
 {
-  "id": "ad_001",
-  "title": "میست لینک را دنبال کنید",
+  "id": "ad_004",
+  "title": "میست لینک را شما بسازید!",
   "title_color": "#FFFFFF",
   "title_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb_Bold.ttf",
-  "description": "در تلگرام میست لینک را دنبال کنید تا از آپدیت ها باخبر شوید",
+  "description": "برای ارسال پیشنهادات خود برای نسخه 1.2 اینجا کلیک کنید",
   "description_color": "#FFFFFF",
   "description_font": "https://github.com/ItzGlace/MistLink/raw/refs/heads/main/api/ads/IRANSansWeb.ttf",
   "logo_url": "https://raw.githubusercontent.com/ItzGlace/MistLink/refs/heads/main/api/ads/Telegram.png",
   "background_type": "rounded",
   "background_color": "#181718",
   "background_image_url": "",
-  "click_url": "https://t.me/mistlink"
+  "click_url": "https://t.me/HarfinoBot?start=3973a15e99d76a8"
 }
