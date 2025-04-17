@@ -1,46 +1,6 @@
 {
-    "Gaming": {
-        "cc": "GG",
-        "configs": [
-            {
-                "tag": "proxy",
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "151.101.123.89",
-                            "port": 80,
-                            "users": [
-                                {
-                                    "id": "568279ce-dd78-4f33-9e5c-64b18c5505db",
-                                    "security": "auto",
-                                    "level": 8,
-                                    "encryption": "none",
-                                    "flow": ""
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "security": "none",
-                    "wsSettings": {
-                        "path": "\/olem\/ws?ed=2560",
-                        "headers": {
-                            "Host": "foffmelo.com"
-                        }
-                    }
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                }
-            }
-        ]
-    },
-    "Colombia": {
-        "cc": "CO",
+    "Bulgaria": {
+        "cc": "BG",
         "configs": [
             {
                 "tag": "proxy",
@@ -48,11 +8,11 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "172.236.19.190",
-                            "method": "aes-128-gcm",
+                            "address": "151.101.158.204",
+                            "method": "aes-256-gcm",
                             "ota": false,
-                            "password": "S_kG5IVobozVy77FTaXYzg",
-                            "port": 1080,
+                            "password": "\ufffd\ufffd8",
+                            "port": 80,
                             "level": 8
                         }
                     ]
@@ -65,7 +25,7 @@
                     "enabled": false,
                     "concurrency": 8
                 },
-                "remarks": "SS-TCP-NAGB-172.236.19.190:1080"
+                "remarks": "SS-TCP-NAIN-151.101.158.204:80"
             }
         ]
     },
@@ -78,11 +38,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "151.101.123.89",
-                            "port": 80,
+                            "address": "104.26.14.49",
+                            "port": 443,
                             "users": [
                                 {
-                                    "id": "568279ce-dd78-4f33-9e5c-64b18c5505db",
+                                    "id": "03ae39fd-ec71-4db5-b234-94de99a6e514",
                                     "security": "auto",
                                     "level": 8,
                                     "encryption": "none",
@@ -94,12 +54,25 @@
                 },
                 "streamSettings": {
                     "network": "ws",
-                    "security": "none",
+                    "security": "tls",
                     "wsSettings": {
-                        "path": "\/olem\/ws?ed=2560",
+                        "path": "\/?ed=2048",
                         "headers": {
-                            "Host": "foffmelo.com"
+                            "Host": "xxx.66500-280b-471c-b2b8-d68b7f9960003.workers.dev"
                         }
+                    },
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "xxx.66500-280b-471c-b2b8-d68b7f9960003.workers.dev",
+                        "alpn": [
+                            "h3",
+                            "h2"
+                        ],
+                        "fingerprint": "chrome",
+                        "show": false,
+                        "publicKey": "",
+                        "shortId": "",
+                        "spiderX": ""
                     }
                 },
                 "mux": {
@@ -109,8 +82,8 @@
             }
         ]
     },
-    "Israel": {
-        "cc": "IL",
+    "Kazakhstan": {
+        "cc": "KZ",
         "configs": [
             {
                 "tag": "proxy",
@@ -118,11 +91,11 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "85.208.108.60",
-                            "method": "aes-256-gcm",
+                            "address": "45.8.98.163",
+                            "method": "chacha20-ietf-poly1305",
                             "ota": false,
-                            "password": "pKEW8JPByTVTLtM",
-                            "port": 443,
+                            "password": "DLW8QqdfAvfUHSeucMIF4E",
+                            "port": 2636,
                             "level": 8
                         }
                     ]
@@ -135,12 +108,12 @@
                     "enabled": false,
                     "concurrency": 8
                 },
-                "remarks": "SS-TCP-NAJP-85.208.108.60:443"
+                "remarks": "SS-TCP-NAKZ-45.8.98.163:2636"
             }
         ]
     },
-    "United Kingdom": {
-        "cc": "GB",
+    "Netherlands": {
+        "cc": "NL",
         "configs": [
             {
                 "tag": "proxy",
@@ -148,11 +121,11 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "62.60.152.158",
-                            "method": "chacha20-ietf-poly1305",
+                            "address": "185.126.239.231",
+                            "method": "aes-256-gcm",
                             "ota": false,
-                            "password": "y6fgyC28hscmdwqXj2v0Fm",
-                            "port": 37618,
+                            "password": "G2LC1BQ48SXSBKZX",
+                            "port": 20002,
                             "level": 8
                         }
                     ]
@@ -165,7 +138,67 @@
                     "enabled": false,
                     "concurrency": 8
                 },
-                "remarks": "SS-TCP-NASE-62.60.152.158:37618"
+                "remarks": "SS-TCP-NARU-185.126.239.231:20002"
+            }
+        ]
+    },
+    "Singapore": {
+        "cc": "SG",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "154.83.90.11",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "9acfc574-acc3-4c2b-ab3b-491d43a6eb83",
+                            "port": 21114,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-154.83.90.11:21114"
+            }
+        ]
+    },
+    "Switzerland": {
+        "cc": "CH",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "59.125.75.115",
+                            "method": "chacha20-ietf-poly1305",
+                            "ota": false,
+                            "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+                            "port": 2377,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NATW-59.125.75.115:2377"
             }
         ]
     },
@@ -178,11 +211,11 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "195.16.74.107",
-                            "method": "chacha20-ietf-poly1305",
+                            "address": "69.50.93.10",
+                            "method": "aes-256-gcm",
                             "ota": false,
-                            "password": "demlKZL24gZf9X8eykFdyr",
-                            "port": 35570,
+                            "password": "PCnnH6SQSnfoS27",
+                            "port": 8091,
                             "level": 8
                         }
                     ]
@@ -195,43 +228,37 @@
                     "enabled": false,
                     "concurrency": 8
                 },
-                "remarks": "SS-TCP-NATR-195.16.74.107:35570"
-            },
+                "remarks": "SS-TCP-NAUS-69.50.93.10:8091"
+            }
+        ]
+    },
+    "Viet Nam": {
+        "cc": "VN",
+        "configs": [
             {
                 "tag": "proxy",
-                "protocol": "trojan",
+                "protocol": "shadowsocks",
                 "settings": {
                     "servers": [
                         {
-                            "address": "103.116.7.103",
-                            "method": "chacha20-poly1305",
+                            "address": "91.148.134.106",
+                            "method": "aes-256-gcm",
                             "ota": false,
-                            "password": "Aimer",
-                            "port": 2083,
-                            "level": 8,
-                            "flow": ""
+                            "password": "RQ90EZC0GLM0PBEA",
+                            "port": 20005,
+                            "level": 8
                         }
                     ]
                 },
                 "streamSettings": {
                     "network": "tcp",
-                    "security": "tls",
-                    "tlsSettings": {
-                        "allowInsecure": true,
-                        "serverName": "epccy.ambercc.filegear-sg.me",
-                        "fingerprint": "randomized",
-                        "show": false
-                    },
-                    "tcpSetting": {
-                        "header": {
-                            "type": "none"
-                        }
-                    }
+                    "security": ""
                 },
                 "mux": {
                     "enabled": false,
                     "concurrency": 8
-                }
+                },
+                "remarks": "SS-TCP-NACO-91.148.134.106:20005"
             }
         ]
     }
