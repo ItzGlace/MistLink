@@ -4,40 +4,15 @@
         "configs": [
             {
                 "tag": "proxy",
-                "protocol": "shadowsocks",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "45.144.49.110",
-                            "method": "chacha20-ietf-poly1305",
-                            "ota": false,
-                            "password": "usc9SJdfqUOgolaJCQfXc9",
-                            "port": 18514,
-                            "level": 8
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "tcp",
-                    "security": ""
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                },
-                "remarks": "SS-TCP-NAPL-45.144.49.110:18514"
-            },
-            {
-                "tag": "proxy",
                 "protocol": "vless",
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.141.68",
-                            "port": 2087,
+                            "address": "104.17.148.22",
+                            "port": 2052,
                             "users": [
                                 {
-                                    "id": "d9b3f928-88f5-4951-8f81-a66422b982c3",
+                                    "id": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
                                     "security": "auto",
                                     "level": 8,
                                     "encryption": "none",
@@ -48,25 +23,13 @@
                     ]
                 },
                 "streamSettings": {
-                    "network": "grpc",
-                    "security": "tls",
-                    "tlsSettings": {
-                        "allowInsecure": true,
-                        "serverName": "tabnak.ITN24.IR",
-                        "alpn": [
-                            "h3",
-                            "h2",
-                            "http\/1.1"
-                        ],
-                        "fingerprint": "chrome",
-                        "show": false,
-                        "publicKey": "",
-                        "shortId": "",
-                        "spiderX": ""
-                    },
-                    "grpcSettings": {
-                        "serviceName": "\/?ed=2048",
-                        "multiMode": false
+                    "network": "ws",
+                    "security": "",
+                    "wsSettings": {
+                        "path": "\/",
+                        "headers": {
+                            "Host": "Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt"
+                        }
                     }
                 },
                 "mux": {
@@ -85,11 +48,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "172.67.141.68",
-                            "port": 2087,
+                            "address": "104.17.148.22",
+                            "port": 2052,
                             "users": [
                                 {
-                                    "id": "d9b3f928-88f5-4951-8f81-a66422b982c3",
+                                    "id": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
                                     "security": "auto",
                                     "level": 8,
                                     "encryption": "none",
@@ -100,25 +63,13 @@
                     ]
                 },
                 "streamSettings": {
-                    "network": "grpc",
-                    "security": "tls",
-                    "tlsSettings": {
-                        "allowInsecure": true,
-                        "serverName": "tabnak.ITN24.IR",
-                        "alpn": [
-                            "h3",
-                            "h2",
-                            "http\/1.1"
-                        ],
-                        "fingerprint": "chrome",
-                        "show": false,
-                        "publicKey": "",
-                        "shortId": "",
-                        "spiderX": ""
-                    },
-                    "grpcSettings": {
-                        "serviceName": "\/?ed=2048",
-                        "multiMode": false
+                    "network": "ws",
+                    "security": "",
+                    "wsSettings": {
+                        "path": "\/",
+                        "headers": {
+                            "Host": "Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt"
+                        }
                     }
                 },
                 "mux": {
@@ -128,8 +79,8 @@
             }
         ]
     },
-    "Indonesia": {
-        "cc": "ID",
+    "United Kingdom": {
+        "cc": "GB",
         "configs": [
             {
                 "tag": "proxy",
@@ -137,11 +88,11 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "211.72.214.20",
+                            "address": "85.210.120.237",
                             "method": "chacha20-ietf-poly1305",
                             "ota": false,
-                            "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
-                            "port": 2377,
+                            "password": "Bog0ELmMM9DSxDdQ",
+                            "port": 443,
                             "level": 8
                         }
                     ]
@@ -154,62 +105,7 @@
                     "enabled": false,
                     "concurrency": 8
                 },
-                "remarks": "SS-TCP-NATW-211.72.214.20:2377"
-            }
-        ]
-    },
-    "Netherlands": {
-        "cc": "NL",
-        "configs": [
-            {
-                "tag": "proxy",
-                "protocol": "shadowsocks",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "45.144.49.110",
-                            "method": "chacha20-ietf-poly1305",
-                            "ota": false,
-                            "password": "usc9SJdfqUOgolaJCQfXc9",
-                            "port": 18514,
-                            "level": 8
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "tcp",
-                    "security": ""
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                },
-                "remarks": "SS-TCP-NAPL-45.144.49.110:18514"
-            },
-            {
-                "tag": "proxy",
-                "protocol": "shadowsocks",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "43.203.237.206",
-                            "method": "chacha20-ietf-poly1305",
-                            "ota": false,
-                            "password": "1234",
-                            "port": 1234,
-                            "level": 8
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "tcp",
-                    "security": ""
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                },
-                "remarks": "SS-TCP-NAKR-43.203.237.206:1234"
+                "remarks": "SS-TCP-NAGB-85.210.120.237:443"
             }
         ]
     },
@@ -222,7 +118,32 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "23.247.137.158",
+                            "address": "23.150.248.199",
+                            "method": "aes-256-gcm",
+                            "ota": false,
+                            "password": "TEzjfAYq2IjtuoS",
+                            "port": 6679,
+                            "level": 8
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": ""
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                },
+                "remarks": "SS-TCP-NAUS-23.150.248.199:6679"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "shadowsocks",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "88.210.36.106",
                             "method": "chacha20-ietf-poly1305",
                             "ota": false,
                             "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
@@ -239,7 +160,43 @@
                     "enabled": false,
                     "concurrency": 8
                 },
-                "remarks": "SS-TCP-NAUS-23.247.137.158:2377"
+                "remarks": "SS-TCP-NAUS-88.210.36.106:2377"
+            },
+            {
+                "tag": "proxy",
+                "protocol": "trojan",
+                "settings": {
+                    "servers": [
+                        {
+                            "address": "38.60.217.170",
+                            "method": "chacha20-poly1305",
+                            "ota": false,
+                            "password": "3770966768580042752",
+                            "port": 443,
+                            "level": 8,
+                            "flow": ""
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": true,
+                        "serverName": "fun-louse.treefrog761.one",
+                        "fingerprint": "randomized",
+                        "show": false
+                    },
+                    "tcpSetting": {
+                        "header": {
+                            "type": "none"
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                }
             },
             {
                 "tag": "proxy",
@@ -247,11 +204,11 @@
                 "settings": {
                     "servers": [
                         {
-                            "address": "45.158.171.110",
-                            "method": "chacha20-ietf-poly1305",
+                            "address": "212.102.47.129",
+                            "method": "aes-128-gcm",
                             "ota": false,
-                            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-                            "port": 8080,
+                            "password": "shadowsocks",
+                            "port": 443,
                             "level": 8
                         }
                     ]
@@ -264,7 +221,7 @@
                     "enabled": false,
                     "concurrency": 8
                 },
-                "remarks": "SS-TCP-NAFR-45.158.171.110:8080"
+                "remarks": "SS-TCP-NAUS-212.102.47.129:443"
             }
         ]
     }
