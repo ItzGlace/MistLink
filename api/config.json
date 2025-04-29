@@ -1,44 +1,4 @@
 {
-    "Gaming": {
-        "cc": "GG",
-        "configs": [
-            {
-                "tag": "proxy",
-                "protocol": "vless",
-                "settings": {
-                    "vnext": [
-                        {
-                            "address": "104.17.148.22",
-                            "port": 2052,
-                            "users": [
-                                {
-                                    "id": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
-                                    "security": "auto",
-                                    "level": 8,
-                                    "encryption": "none",
-                                    "flow": ""
-                                }
-                            ]
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "ws",
-                    "security": "",
-                    "wsSettings": {
-                        "path": "\/",
-                        "headers": {
-                            "Host": "Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt"
-                        }
-                    }
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                }
-            }
-        ]
-    },
     "Finland": {
         "cc": "FI",
         "configs": [
@@ -48,11 +8,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "104.17.148.22",
-                            "port": 2052,
+                            "address": "151.101.194.67",
+                            "port": 80,
                             "users": [
                                 {
-                                    "id": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
+                                    "id": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
                                     "security": "auto",
                                     "level": 8,
                                     "encryption": "none",
@@ -66,9 +26,9 @@
                     "network": "ws",
                     "security": "",
                     "wsSettings": {
-                        "path": "\/",
+                        "path": "Telegram\ud83c\udde8\ud83c\uddf3 @WangCai2 ",
                         "headers": {
-                            "Host": "Yak-Khanda-kUn-eY-gUL.biNG.com.xn--cR8HaaaAaAAAaAaaAaAaAAaAAaaaAAAAAaAaaAaaaAaaaaAAaaAAAaaaaAa.xN--Cr8hAaAaaAaaAAAAAAaaaAAAaAAaaAaAaAAAAAA.TREPAspeEdTEsT.NEtrag.cOm.PX.Com.sh017.IR.XN--Cr8hAaaAaaAaaAaaaAAAaaaAaaAaaaAaAAAaaaA.yek.dDnS-ip.nEt"
+                            "Host": "Join--E-L-i-V-2-R-A-Y.net"
                         }
                     }
                 },
@@ -76,152 +36,6 @@
                     "enabled": false,
                     "concurrency": 8
                 }
-            }
-        ]
-    },
-    "United Kingdom": {
-        "cc": "GB",
-        "configs": [
-            {
-                "tag": "proxy",
-                "protocol": "shadowsocks",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "85.210.120.237",
-                            "method": "chacha20-ietf-poly1305",
-                            "ota": false,
-                            "password": "Bog0ELmMM9DSxDdQ",
-                            "port": 443,
-                            "level": 8
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "tcp",
-                    "security": ""
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                },
-                "remarks": "SS-TCP-NAGB-85.210.120.237:443"
-            }
-        ]
-    },
-    "United States": {
-        "cc": "US",
-        "configs": [
-            {
-                "tag": "proxy",
-                "protocol": "shadowsocks",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "23.150.248.199",
-                            "method": "aes-256-gcm",
-                            "ota": false,
-                            "password": "TEzjfAYq2IjtuoS",
-                            "port": 6679,
-                            "level": 8
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "tcp",
-                    "security": ""
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                },
-                "remarks": "SS-TCP-NAUS-23.150.248.199:6679"
-            },
-            {
-                "tag": "proxy",
-                "protocol": "shadowsocks",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "88.210.36.106",
-                            "method": "chacha20-ietf-poly1305",
-                            "ota": false,
-                            "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
-                            "port": 2377,
-                            "level": 8
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "tcp",
-                    "security": ""
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                },
-                "remarks": "SS-TCP-NAUS-88.210.36.106:2377"
-            },
-            {
-                "tag": "proxy",
-                "protocol": "trojan",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "38.60.217.170",
-                            "method": "chacha20-poly1305",
-                            "ota": false,
-                            "password": "3770966768580042752",
-                            "port": 443,
-                            "level": 8,
-                            "flow": ""
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "tcp",
-                    "security": "tls",
-                    "tlsSettings": {
-                        "allowInsecure": true,
-                        "serverName": "fun-louse.treefrog761.one",
-                        "fingerprint": "randomized",
-                        "show": false
-                    },
-                    "tcpSetting": {
-                        "header": {
-                            "type": "none"
-                        }
-                    }
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                }
-            },
-            {
-                "tag": "proxy",
-                "protocol": "shadowsocks",
-                "settings": {
-                    "servers": [
-                        {
-                            "address": "212.102.47.129",
-                            "method": "aes-128-gcm",
-                            "ota": false,
-                            "password": "shadowsocks",
-                            "port": 443,
-                            "level": 8
-                        }
-                    ]
-                },
-                "streamSettings": {
-                    "network": "tcp",
-                    "security": ""
-                },
-                "mux": {
-                    "enabled": false,
-                    "concurrency": 8
-                },
-                "remarks": "SS-TCP-NAUS-212.102.47.129:443"
             }
         ]
     }
