@@ -1,4 +1,52 @@
 {
+    "Gaming": {
+        "cc": "GG",
+        "configs": [
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "164.92.243.66",
+                            "port": 443,
+                            "users": [
+                                {
+                                    "id": "7b63ed50-f1f8-4776-b7f2-60e73f6b66c0",
+                                    "security": "auto",
+                                    "level": 8,
+                                    "encryption": "none",
+                                    "flow": "xtls-rprx-vision"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": "reality",
+                    "realitySettings": {
+                        "allowInsecure": true,
+                        "serverName": "venom.spritbraker.ir",
+                        "fingerprint": "chrome",
+                        "show": false,
+                        "publicKey": "fCdQnxkoid28t27haGSLEd3rr0R3zxw57xg40wwfU0I",
+                        "shortId": "93f3face",
+                        "spiderX": ""
+                    },
+                    "tcpSetting": {
+                        "header": {
+                            "type": "none"
+                        }
+                    }
+                },
+                "mux": {
+                    "enabled": false,
+                    "concurrency": 8
+                }
+            }
+        ]
+    },
     "Finland": {
         "cc": "FI",
         "configs": [
@@ -8,27 +56,35 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "151.101.194.67",
-                            "port": 80,
+                            "address": "164.92.243.66",
+                            "port": 443,
                             "users": [
                                 {
-                                    "id": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+                                    "id": "7b63ed50-f1f8-4776-b7f2-60e73f6b66c0",
                                     "security": "auto",
                                     "level": 8,
                                     "encryption": "none",
-                                    "flow": ""
+                                    "flow": "xtls-rprx-vision"
                                 }
                             ]
                         }
                     ]
                 },
                 "streamSettings": {
-                    "network": "ws",
-                    "security": "",
-                    "wsSettings": {
-                        "path": "Telegram\ud83c\udde8\ud83c\uddf3 @WangCai2 ",
-                        "headers": {
-                            "Host": "Join--E-L-i-V-2-R-A-Y.net"
+                    "network": "tcp",
+                    "security": "reality",
+                    "realitySettings": {
+                        "allowInsecure": true,
+                        "serverName": "venom.spritbraker.ir",
+                        "fingerprint": "chrome",
+                        "show": false,
+                        "publicKey": "fCdQnxkoid28t27haGSLEd3rr0R3zxw57xg40wwfU0I",
+                        "shortId": "93f3face",
+                        "spiderX": ""
+                    },
+                    "tcpSetting": {
+                        "header": {
+                            "type": "none"
                         }
                     }
                 },
