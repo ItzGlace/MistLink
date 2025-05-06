@@ -4,40 +4,40 @@
         "configs": [
             {
                 "tag": "proxy",
-                "protocol": "vless",
+                "protocol": "vmess",
                 "settings": {
                     "vnext": [
                         {
-                            "address": "164.92.243.66",
-                            "port": 443,
+                            "address": "47.74.41.147",
+                            "port": 53893,
                             "users": [
                                 {
-                                    "id": "7b63ed50-f1f8-4776-b7f2-60e73f6b66c0",
+                                    "id": "07287360-e12f-4f94-9c7a-54386c100d8a",
+                                    "alterId": 0,
                                     "security": "auto",
                                     "level": 8,
-                                    "encryption": "none",
-                                    "flow": "xtls-rprx-vision"
+                                    "encryption": "",
+                                    "flow": ""
                                 }
                             ]
                         }
                     ]
                 },
                 "streamSettings": {
-                    "network": "tcp",
-                    "security": "reality",
-                    "realitySettings": {
-                        "allowInsecure": true,
-                        "serverName": "venom.spritbraker.ir",
-                        "fingerprint": "chrome",
-                        "show": false,
-                        "publicKey": "fCdQnxkoid28t27haGSLEd3rr0R3zxw57xg40wwfU0I",
-                        "shortId": "93f3face",
-                        "spiderX": ""
-                    },
-                    "tcpSetting": {
+                    "network": "kcp",
+                    "security": "",
+                    "kcpSettings": {
+                        "mtu": 1350,
+                        "tti": 50,
+                        "uplinkCapacity": 12,
+                        "downlinkCapacity": 100,
+                        "congestion": false,
+                        "readBufferSize": 1,
+                        "writeBufferSize": 1,
                         "header": {
                             "type": "none"
-                        }
+                        },
+                        "seed": "\/"
                     }
                 },
                 "mux": {
@@ -52,40 +52,40 @@
         "configs": [
             {
                 "tag": "proxy",
-                "protocol": "vless",
+                "protocol": "vmess",
                 "settings": {
                     "vnext": [
                         {
-                            "address": "164.92.243.66",
-                            "port": 443,
+                            "address": "47.74.41.147",
+                            "port": 53893,
                             "users": [
                                 {
-                                    "id": "7b63ed50-f1f8-4776-b7f2-60e73f6b66c0",
+                                    "id": "07287360-e12f-4f94-9c7a-54386c100d8a",
+                                    "alterId": 0,
                                     "security": "auto",
                                     "level": 8,
-                                    "encryption": "none",
-                                    "flow": "xtls-rprx-vision"
+                                    "encryption": "",
+                                    "flow": ""
                                 }
                             ]
                         }
                     ]
                 },
                 "streamSettings": {
-                    "network": "tcp",
-                    "security": "reality",
-                    "realitySettings": {
-                        "allowInsecure": true,
-                        "serverName": "venom.spritbraker.ir",
-                        "fingerprint": "chrome",
-                        "show": false,
-                        "publicKey": "fCdQnxkoid28t27haGSLEd3rr0R3zxw57xg40wwfU0I",
-                        "shortId": "93f3face",
-                        "spiderX": ""
-                    },
-                    "tcpSetting": {
+                    "network": "kcp",
+                    "security": "",
+                    "kcpSettings": {
+                        "mtu": 1350,
+                        "tti": 50,
+                        "uplinkCapacity": 12,
+                        "downlinkCapacity": 100,
+                        "congestion": false,
+                        "readBufferSize": 1,
+                        "writeBufferSize": 1,
                         "header": {
                             "type": "none"
-                        }
+                        },
+                        "seed": "\/"
                     }
                 },
                 "mux": {
